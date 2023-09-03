@@ -37,8 +37,8 @@ fetchBreeds()
     console.log(error);
     Notiflix.Loading.remove();
     Notiflix.failure('Oops! Something went wrong! Try reloading the page!', {
-      timeout: 4000,
-      fontSize: '20px',
+      timeout: 5000,
+      fontSize: '25px',
     });
   });
 
@@ -66,8 +66,8 @@ breedSelect.addEventListener('change', e => {
       console.log(error);
       Notiflix.Loading.remove();
       Notiflix.failure('Oops! Something went wrong! Try reloading the page!', {
-        timeout: 4000,
-        fontSize: '20px',
+        timeout: 5000,
+        fontSize: '25px',
       });
     });
 });
